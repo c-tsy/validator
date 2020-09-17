@@ -1,11 +1,20 @@
 {
   "name": "@ctsy/validator",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/c-tsy/validator",
   "author": "castleiMac <castle@tansuyun.cn>",
   "license": "MIT",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "files": [
+    "dist/*.js",
+    "dist/*.ts",
+    "README.md",
+    "yarn.lock"
+  ],
   "dependencies": {
     "async-validator": "^3.4.0",
     "validator": "^13.1.1"
