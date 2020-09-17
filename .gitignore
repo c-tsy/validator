@@ -1,0 +1,13 @@
+node_modules
+dist/**/*.ts
+dist/**/*.map
+*.log
+ws.ts
+ws.js
+logs
+cache
+log
+out
+docs
+.sess
+dist
